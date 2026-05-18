@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(#8ec5ff, #ffd6e8);
+  font-family: "Courier New", monospace;
+  color: #fff;
+}
+
+h1 {
+  margin-top: 20px;
+  text-shadow: 3px 3px #ff4f9a;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+}
+
+canvas {
+  background: #87ceeb;
+  border: 5px solid white;
+  border-radius: 12px;
+  box-shadow: 0 0 25px #ff69b4;
+}
+
+#messageBox {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px #ff4f9a;
+}
