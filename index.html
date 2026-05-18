@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Love Story Platformer</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Love Story Platformer 💖</h1>
-  <p>Collect hearts, avoid distance, and reach me at the end.</p>
+  <div id="gameWrap">
+    <canvas id="gameCanvas" width="960" height="540"></canvas>
 
-  <canvas id="gameCanvas" width="900" height="450"></canvas>
-
-  <div id="messageBox"></div>
+    <div id="mobileControls">
+      <button id="leftBtn">◀</button>
+      <button id="jumpBtn">▲</button>
+      <button id="rightBtn">▶</button>
+      <button id="dashBtn">Dash</button>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
